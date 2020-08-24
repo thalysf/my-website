@@ -1,0 +1,18 @@
+ul li a.painel-action{
+    font-size: 1.2rem !important;
+    transition: all linear .15s;
+}
+ul li a.painel-action:hover{
+    text-shadow: 1px 1px 6px #66646415;
+}
+ul li a#logout:hover{
+    color: #f04021;
+}
+ul li a#change-user:hover{
+    color: #1982d8;
+}
+span#userName{
+    text-transform: capitalize;
+    color: #72dd07dc;
+    text-shadow: 1px 1px 1px #6ff86346;
+}

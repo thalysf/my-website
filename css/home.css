@@ -1,0 +1,231 @@
+
+#login-dropdown{
+
+}
+/*Header and navbar*/
+#logo{
+    font-size: 1.8rem;
+    color: #979594;
+}
+
+@media screen and (min-width: 992px)
+{
+    #login-dropdown{
+        position: absolute;
+        right: 10px;
+    }
+    
+}
+/* Slider */
+
+.container-fluid{
+    padding: 0;
+}
+#main-slider .carousel-inner, #main-slider .carousel-item{
+    height: 90vh; 
+}
+#main-slider .carousel-caption{
+    top: 32%; 
+}
+.carousel-caption{
+    text-shadow: 1px 1px 6px #02c39931;
+}
+#main-slider .carousel-caption h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+#main-slider .carousel-caption p{
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.main-btn{
+    background-color: #02c39a;
+    color: white;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 30px;  
+    border: 3px solid transparent;
+    transition: .5s;
+    outline: none; 
+}
+.main-btn:hover{
+    text-decoration: none;
+    color: #FFF;
+    background-color: transparent;
+    border-color: #02c39a;
+}
+.carousel-indicators .active{
+    background-color: #02c39a;
+}
+/* Sobre */
+div#sobre{
+    padding: 0;
+}
+.main-title{
+    text-align: center;
+    margin: 40px 0;
+}
+.main-title::after{
+    position: absolute;
+    width: 15%;
+    content: "";
+    border-bottom: 2.5px solid #028090;
+    top: 90px;
+    left: 42.5%;
+}
+div#sobre h3{
+    text-align: center;
+}
+div#sobre img{
+    max-height: 100%;
+    max-width: 100%;
+}
+div#sobre .about-text{
+    color: #000;
+}
+.centralizaHorizontalVertical{
+    margin: 0;
+    height: auto;
+    width: 70%;
+    position: absolute;               
+    top: 50%;       
+    left: 50%;                  
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+div#sobre .col-md-6
+{
+    height: 426px;
+}
+.about-img-text{
+    background-color: #cecaca38;
+    border: 2px solid transparent;
+    border-radius: .25rem;
+    opacity: 1 !important;
+    top: 48%;
+    color: #00a896;
+    font-weight: 500;
+    transition: all linear .25s;
+}
+.about-img-text a{
+    background-color: teal;
+    display: inline-block;
+    height: 46px;
+    position: relative;
+    top: 23px;
+}
+.about-img-text a:hover{
+    border-color: teal;
+    color: #00a896;
+}
+/* Especialidades */
+div#especialidades .row h4{
+    background-color: #00a896;
+    text-align: center;
+    color: #fff;
+    padding: 6px 0;
+}
+div#especialidades i{
+    font-size: 2rem;
+    display: inline-block;
+    margin-right: 4px;
+    color: #f2f2f2 !important;
+}
+div#especialidades{
+    background-color: #02c39a;
+    color: #fff;
+}
+div#especialidades .container .row .col-md-4{
+    font-size: 1.4rem;
+    transition: all linear .2s;
+    padding: 10px;
+}
+div#especialidades .container .row .col-md-4 p{
+    font-size: 1.2rem !important;
+    text-indent: 16px;
+    text-justify: distribute;
+    margin-top: 4px;
+}
+div#especialidades .container .row .col-md-4:hover > i{
+    color: #fff;
+    text-shadow: 1px 1px 5px #03665138;
+}
+div#especialidades .container .row .col-md-4:hover{
+    background-color: #03b992;
+    cursor: pointer;
+}
+/* Cards */
+div#client-area .card{
+    transition: all linear 0.25s;
+}
+div#client-area .card:hover{
+   transform: scale(1.1, 1.12);
+   box-shadow: 1px 1px 5px #02292038;
+}
+@media screen and (max-width: 768px)
+{
+    div#client-area .card:hover{
+        transform: none;
+    }
+    div#client-area .card{
+        margin-bottom: 20px;
+    }
+}
+/*Newsletter*/
+div#newsletter{
+    margin: 30px 0;
+    background-color: #028090;
+    color: #fff;
+    text-align: center;
+    padding: 100px;
+}
+div#newsletter label{
+    font-size: 1.4rem;
+}
+div#newsletter input#email-newsLetter{
+    border: 2px solid transparent;
+    background-color: initial;
+    border: 2px solid #02c39a;
+    border-radius: .3rem;
+    width: 30%;
+    color: #fff;
+    padding: 8px;
+    height: 40px;
+    margin: 0 8px;
+    outline: none;
+}
+input#email-newsLetter::placeholder{
+    color: #e7e2e2;
+}
+button#btn-newsLetter{
+    height: 50px;
+    background-color: #02c39a;
+}
+button#btn-newsLetter:hover{
+    background-color: initial;
+    border-color: #02c39a;
+}
+/*Alert Login*/
+#msgError
+{
+    text-align: center;
+    color: #ff3838;
+    margin-top: -10px;
+    margin-bottom: 6px;
+    padding: 0;
+    display: none;
+}
+/*Footer*/
+div#footer{
+    background-color: #0a5e55;
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 50px;
+    text-align: center;
+}

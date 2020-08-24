@@ -1,0 +1,33 @@
+/*Estilos Gerais*/
+body{
+    background-color: #02c39a;
+    background-image: url('../img/cadastra/background.png');
+    height: 100vh;
+}
+div.area-cadastro{
+    background-color: #fff;
+    border: 4px solid transparent;
+    border-radius: .5rem;
+    height: 80vh;
+    box-shadow: 1px 1px 5px #0b886f46;
+    overflow: scroll;
+}
+.centralizaHorizontalVertical{
+    margin: 0;
+    height: auto;
+    width: 70%;
+    position: absolute;               
+    top: 50%;       
+    left: 50%;                  
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+/*Alerts*/
+.alert{
+    text-align: center;
+    color: #ff3838;
+    margin-top: -10px;
+    margin-bottom: 6px;
+    padding: 0;
+    display: none;
+}
