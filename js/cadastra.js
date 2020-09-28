@@ -22,12 +22,10 @@ window.onload = function(){
             .then(function(json){
                 if(json.status)
                 {
-                    console.log('Aqui 0');
                     window.location.href = "../";
                 }
                 else
                 {
-                    console.log('Aqui 1');
                     validations(nome, senha, confirma_senha, email, json.status);
                 }
             })
